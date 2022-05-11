@@ -21,7 +21,7 @@ retorne o resultado para o cliente.
 
 
     
-### __Hosted the site on netlify__
+### *Hosted the site on netlify*
 
 [click here to open the website](http://127.0.0.1:5500/index.html?) :rocket:
 
