@@ -12,5 +12,5 @@ entre -3 e -10. Já a lente Vision é uma opção para quem tem de 0 a -15 de es
 a -15 para esférico e -6 para cilíndrico e são números iterados de 0.25 em 0.25 (ex: -0.25; 0; +0.25; etc). Crie uma solução que realize estes cálculos e
 retorne o resultado para o cliente.
 
-<
+<img src="./public/src/lenscope-finish.png">
 
