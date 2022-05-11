@@ -17,4 +17,4 @@ retorne o resultado para o cliente.
     
 ### Hosted the site on netlify
 
-<link href= "http://127.0.0.1:5500/index.html?">
+<a href= "http://127.0.0.1:5500/index.html?">
