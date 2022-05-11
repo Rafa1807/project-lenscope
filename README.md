@@ -14,3 +14,7 @@ retorne o resultado para o cliente.
 
 <img src="./public/src/lenscope-finish.png">
 
+    
+### Hosted the site on netlify
+
+<link href= "http://127.0.0.1:5500/index.html?">
