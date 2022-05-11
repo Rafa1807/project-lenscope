@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+     <!-- Font Google -->
+    <title>Lenscope</title>
+</head>
+<body>
+    <header>
+        <img src="./public/src/lenscope2.png"/>
+        <nav>
+            <marquee>As melhores lentes você encontra aqui!</marquee>
+            
+        </nav>
+    </header>
+ <form>
+    <div class="container-main">
+        <img src="./public/src/photo-profile.png" alt="">
+        <div class="esferico">
+            <h2 class="title-esferico">Informe os valores do seu grau esférico</h1>
+            <div class="div-input">
+                <p class="sup">Olho esquerdo - 
+                    <input class="left-eye-esferico" min="-15" max="0" type="number" step="0.25" required>
+                </p>
+                    <p>Olho direito - 
+                        <input class="right-eye-esferico" min="-15" max="0" type="number" step="0.25" required>
+                    </p>
+            
+        </div>
+        <div class="cilindrico">
+            <h2 class="title-cilindrico">Informe os valores do seu grau cilíndrico</h1>
+                <p class="sup">Olho esquerdo - 
+                    <input class="left-eye-cilindrico" min="-15" max="0" type="number" step="0.25" required>
+                </p>
+                    <p>Olho direito - 
+                        <input class="right-eye-cilindrico" min="-15" max="0" type="number" step="0.25" required>
+                    </p>
+            
+        </div>
+        <div class="btn-div">
+            <button class="calculate-here" type="submit">Calcule aqui</button>
+            <button class="clear-all" type="reset" onclick="">Limpar</button>
+        </div>
+        <div class="result">
+            <p class="result-lens">Vamos encontrar a lente ideal para você ! </p>
+        </div>
+
+    </div>
+</form>
+
+    <script src="./index.js"></script>
+</body>
+</html>
+
+<!-- 4 parâmetros numéricos
+
+    São eles: 
+    - Grau esférico olho esquerdo
+    - Grau esférico olho direito
+    - Grau cilindrico olho esquerdo
+    - Grau cilindrico olho direito -->
+
+    <!-- Lente prime:
+    
+    - Paciente que tiver grau esférico olho esquerdo || olho direito
+    entre -3 e -12 && só atende até grau cilíndrico -2, passando a atender até somente 
+-3 e 1-10 se o paciente tiver grau cilíndrico-->
+
+<!-- Lente Vision:
+
+    De 0 a -15 de esférico  e até -5 de cilíndrico -->
+
+    <!-- Se a lente prime estiver disponóvel, deverá ser a única disponível para o 
+        usuário -->
