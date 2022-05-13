@@ -23,7 +23,7 @@ retorne o resultado para o cliente.
     
 ### *Hosted the site on netlify*
 
-[click here to open the website](https://zesty-beignet-b378f4.netlify.app) :rocket:
+[click here to open the website](https://lenscope-project.netlify.app) :rocket:
 
 
 <img src="./public/src/lenscope-finish.png">
